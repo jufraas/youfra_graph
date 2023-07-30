@@ -15,8 +15,6 @@ fetch(url)
     const height = 500;
     const padding = 60;
 
-    document.getElementById("title").textContent = title;
-
     const svg = d3
       .select(".visHolder")
       .append("svg")
